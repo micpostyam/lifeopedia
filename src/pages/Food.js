@@ -1,7 +1,6 @@
 import React from 'react';
 import CategoryPage from "../components/CategoryPage";
 import {connect} from "react-redux";
-import CatArticles from "../components/CatArticles";
 
 const Food = (props) => {
   const {articles, vues, comments} = props;
