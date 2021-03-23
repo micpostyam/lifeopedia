@@ -1,0 +1,50 @@
+.cont-v-line{
+    position: relative;
+}
+.vertical-line{
+    display: inline-block;
+    height: 100%;
+    width: 2px;
+    background: white;
+}
+.login-select{
+    color: #F56113 !important;
+    position: relative;
+}
+.login-select::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #F56113;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form-email{
+    border-radius: 20px;
+    background: rgba(255,255,255, 0.5);
+    border: 0;
+}
+.form-submit{
+    border-radius: 20px;
+    background: #F56113;
+    color: white;
+    display: block;
+    width: 100%;
+}
+.btn-facebook{
+    background-color: #3b5998;
+    display: block;
+    width: 100%;
+}
+.btn-linkedin{
+    background-color: #0082ca;
+    display: block;
+    width: 100%;
+}
+.btn-twitter{
+    background-color: #55acee;
+    display: block;
+    width: 100%;
+}

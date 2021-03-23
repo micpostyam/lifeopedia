@@ -1,0 +1,26 @@
+.navigation {
+    position: relative;
+    z-index: 99;
+}
+.text-logo{
+    font-size: 35px;
+}
+.navbar a{
+    position: relative;
+}
+.navbar .nav-link:hover{
+    color: #F56113 !important;
+}
+.navbar .active{
+    color: #F56113 !important;
+}
+.navbar .active::after{
+    content: "";
+    width: 85%;
+    height: 3px;
+    background: #F56113;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%);
+}

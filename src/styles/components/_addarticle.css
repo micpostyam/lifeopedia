@@ -1,0 +1,10 @@
+.art-btn{
+    border-radius: 20px;
+}
+.text-art{
+    border-radius: 0 0 10px 10px;
+    min-height: 300px;
+}
+.label-text-art{
+    border-radius: 10px 10px 0 0 ;
+}

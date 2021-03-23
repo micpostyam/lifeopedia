@@ -1,0 +1,28 @@
+body{
+    background: #FBF9F4;
+}
+footer{
+    background: #4E443E;
+}
+.text-orange{
+    color: #F56113 !important;
+}
+.bg-orange{
+    background-color: #F56113 !important;
+}
+.bg-orange-light{
+    background-color: #F5DEB3 !important;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #F56113;
+    border-color: #F56113;
+}
+.btn-orange:hover {
+    color: #fff;
+    background-color: #DE5107;
+    border-color: #C64705;
+}
+.border-orange{
+    border-color: #F56113 !important;
+}
